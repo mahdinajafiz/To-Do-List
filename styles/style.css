@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+/* Container div */
+#container {
+    text-align: center;
+    width: 540px;
+    border-radius: 20px;
+    font-family: 'Lalezar', cursive;
+    background-color: #EAF4FE;
+    font-size: 30px;
+    padding-bottom: 2px;
+    margin: 0 auto;
+    margin-top:50px;
+}
