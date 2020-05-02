@@ -10,6 +10,7 @@
     margin: 0 auto;
     margin-top:50px;
 }
+/* To-do list h1 */
 h1 {
     color: white;
     background-color: #4870FF;
@@ -17,25 +18,17 @@ h1 {
     font-size: 35px;
     margin-top: 10px;
 }
-#light img {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-#night img {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
+/* to do div for display & write & edit */
 #todoDiv {
     margin-top: 10px;
 }
-/* buttons */
+            /* buttons */
 button {
     cursor: pointer;
     font-size: 30px;
     font-family: 'Lalezar', cursive;
 }
+/* Todo & completed btn at the top of the app */
 #todo{
     border: 0;
     background-color: white;
@@ -50,6 +43,7 @@ button {
     outline: 0;
     margin-bottom: 10px;
 }
+/* Add and write btn */
 #addButton, #writeNewTask {
     border-radius: 10px;
     margin: 0 auto;
@@ -66,6 +60,7 @@ button {
 #writeNewTask:hover {
     background-color: #2980b9;
 }
+/* Close btn  */
 #close {
     display: block;
     margin: 0 auto;
@@ -79,6 +74,7 @@ button {
     background-color: #c0392b;
     color: white;
 }
+/* Remove btn  */
 #remove {
     font-size: 30px;
     background-color: white;
@@ -89,7 +85,7 @@ button {
     background-color: #c0392b;
     color: white;
 }
-/* task style */
+            /* Table for display tasks */
 table {
     text-align: center;
     margin: 0 auto;
@@ -103,12 +99,14 @@ table tr {
     padding: 10px;
     background-color: white;
 }
+/* Done's tasks show in completed tasks */
 .doneTask {
     background-color: #27ae60;
     color: white;
     border-radius: 10px;
     cursor: pointer;
 }
+/* input for task's name */
 #taskName {
     border: 0;
     outline: 0;
@@ -118,6 +116,7 @@ table tr {
     font-size: 20px;
     padding-left: 5px;
 }
+/* Textarea for task's description */
 #description {
     border: 0;
     outline: 0;
@@ -129,6 +128,7 @@ table tr {
     resize: none;
     padding-left: 5px;
 }
+/* td title show in table's tr */
 td.ppp {
     width: 360px;
     text-align: center;
