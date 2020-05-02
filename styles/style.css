@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
-/* Container div */
 #container {
     text-align: center;
     width: 540px;
@@ -10,4 +9,136 @@
     padding-bottom: 2px;
     margin: 0 auto;
     margin-top:50px;
+}
+h1 {
+    color: white;
+    background-color: #4870FF;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+#light img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#night img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#todoDiv {
+    margin-top: 10px;
+}
+/* buttons */
+button {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Lalezar', cursive;
+}
+#todo{
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    outline: 0;
+    margin-bottom: 10px;
+}
+#completed {
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    outline: 0;
+    margin-bottom: 10px;
+}
+#addButton, #writeNewTask {
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 30px;
+    border: 0;
+    outline: none;
+    background-color: #3498db;
+    color: #ecf0f1;
+    display: block;
+}
+#addButton:hover {
+    background-color: #2980b9;
+}
+#writeNewTask:hover {
+    background-color: #2980b9;
+}
+#close {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: #c0392b;
+    border: 1px solid #c0392b;
+}
+#close:hover {
+    background-color: #c0392b;
+    color: white;
+}
+#remove {
+    font-size: 30px;
+    background-color: white;
+    color: #c0392b;
+    border: 1px solid #c0392b;
+}
+#remove:hover {
+    background-color: #c0392b;
+    color: white;
+}
+/* task style */
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+table tr {
+    display: block;
+    margin-bottom: 10px;
+}
+.task {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.doneTask {
+    background-color: #27ae60;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#taskName {
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 510px;
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
+    padding-left: 5px;
+}
+#description {
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 510px;
+    height: 140px;
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
+    resize: none;
+    padding-left: 5px;
+}
+td.ppp {
+    width: 360px;
+    text-align: center;
+    cursor: pointer;
+}
+.checkbox {
+    margin-left: 10px;
+    cursor: pointer;
+}
+#Completed {
+    font-weight: 500px;
+    font-style: bold;
 }
