@@ -5,6 +5,35 @@
     <link href="./styles/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <div id="container">
+        <h1>To-Do List</h1>
+        <!-- Todo and completed button At the top of the app -->
+        <button id="todo" onclick="showTodo()">To do</button>
+        <button id="completed" onclick="showCompleted()">Completed</button>
+        <!-- The main body of the program to write and change and display tasks -->
+        <div id="todoDiv">
+            <!-- Display tasks -->
+            <table>
+                <tbody id="tasks"></tbody>
+            </table>
+            <!-- Write tasks -->
+            <form id="formWriteTask">
+                    <input type="text" name="do" placeholder="Enter your task name..." id="taskName">
+                    <textarea name="description" id="description" placeholder="Description..."></textarea>
+                    <button id="addButton">Add</button>
+            </form>
+            <!-- Edit task -->
+            <div id="taskInfo"></div>
+        </div>
+        <!-- Write new task button -->
+        <button onclick="writeNewTask()" id="writeNewTask">Write New Task</button>
+        <!-- Close write & edit task Button -->
+        <button onclick="closeEditWrite()" id="close">Close write & edit task</button>
+        <!-- Completed tasks -->
+        <div id="doneTasks">
+            <span id="countingDoneTasks"></span>
+        </div>
+    </div>
     <script src="./scripts/index.js"></script>
 </body>
 </html>
